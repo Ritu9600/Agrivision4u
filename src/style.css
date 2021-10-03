@@ -1,0 +1,199 @@
+.nav{
+    height: 3rem;
+    background: linear-gradient(86.94deg, #1BBC9B 0%, #1BBC9B 0.01%, #16A086 100%);
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+.btns{
+    padding-top: 1%;
+    padding-left: 2.5%;
+}
+.btn-hover{
+    background: linear-gradient(86.94deg, #1BBC9B 0%, #1BBC9B 0.01%, #16A086 100%);
+border-radius: 4px 4px 0px 0px;
+font-size: 12px;
+}
+.btn{
+    background: #E8F3FF;
+border-radius: 4px 4px 0px 0px;
+color: black;
+font-size: 12px;
+border:none;
+}
+
+.head{
+    color: white ;
+    text-shadow: 0px 2px 0px 2px white !important;
+    padding-left: 10%;
+    font-size: 18px;
+}
+.card1{
+    width: 92%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin-left:5%;
+    margin-top: 5%;
+    height: 350px;
+}
+.card2{
+    width: 92%;
+    margin-right: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    height: 350px;
+}
+.total{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+.name{
+    font-weight: 600;
+font-size: 16px;
+color: lightgray;
+}
+.bt{
+    border-radius: 80%;
+    color: #18A88C;
+    font-size: 13px;
+    background-color: #18A88C;
+    border:none;
+}
+
+#bt2{
+    background-color: #0286FF !important;
+    color:#0286FF ;
+}
+
+#bt1{
+    background-color:#FF5656 !important;
+    color:#FF5656 ;
+}
+.per{
+    font-weight: 600;
+font-size: 16px;
+}
+@media screen and(max-width: 500px){
+    .total{
+        padding-left: 45% !important;
+    }
+    .legends{
+        padding-left: 40%;
+    }
+    .pie1{
+        padding-left: 5%;
+    }
+}
+@media screen and (min-width :1000px) {
+.pie1{
+    padding-left: 27%;
+}
+}
+.legends{
+   height: 30%;
+   border-style: none;
+   padding-top: 2%;
+   padding-left: 18%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px){
+    .pie1{
+        padding-left: 16%;
+    }
+    .legends{
+        width: 100%;
+        padding-left: 12%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .pie1{
+        padding-left: 18%;
+    }
+   .legends{
+       padding-left: 43%;
+   }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .pie1{
+        padding-left: 6%;
+    }
+   .legends{
+       padding-left: 5%;
+   }
+}
+
+@media screen and (max-width: 350px) {
+    .card1{
+        padding-left: 0%;
+    }
+    .total{
+        padding-left: 15%;
+    }
+   .legends{
+       padding-left: 45%;
+   }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    .card1{
+        padding-left: 0%;
+    }
+    .pie1{
+        padding-left: 10%;
+    }
+    .total{
+        padding-left: 1%;
+    }
+   .legends{
+       padding-left: 40%;
+   }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px){
+    .card1{
+        height: 500px;
+    }
+    .card2{
+        margin-left: 5%;
+    }
+}
+
+.table1{
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.table2{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+#txt{
+    padding-bottom: 10%;
+}
+.t1{
+    font-weight: 600;
+font-size: 12px;
+}
+
+.time1{
+    color: #18A88C;
+    padding-left: 20%;
+    font-weight: 1000;
+}
+
+.time2{
+    color: #FF5656;
+    padding-left: 20%;
+    font-weight: 1000;
+}
+
+.time3{
+    color: #0286FF;
+    padding-left: 20%;
+    font-weight: 1000;
+}
+.heading{
+    font-weight: 1000;
+    color: #FF5656;
+    font-size: 18px;
+   padding-left: 27%;
+   padding-bottom: 5%;
+}
